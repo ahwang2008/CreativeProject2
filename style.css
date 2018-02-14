@@ -1,15 +1,19 @@
 body {
-    background-color: rgb(255, 255, 200);
+    background-color: white;
 }
 
 h1 {
     font-size: 30px;
-    color: black;
+    color: rgb(231, 24, 24);
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h2 {
-    color: lightskyblue;
+    font-size: 25px;
+    color: rgb(231, 24, 24);
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 p {
@@ -18,7 +22,7 @@ p {
 }
 
 .active {
-    background-color: lightskyblue;
+    background-color: rgb(231, 24, 24);
 }
 
 nav li {
@@ -31,7 +35,7 @@ section {
 
 aside {
     margin-left:40px;
-    flex: 1
+    flex: 4
 }
 
 article {
@@ -40,17 +44,9 @@ article {
  flex: 4
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto;
-    background-color: #eedd82;
-    padding: 10px;
-}
-
-.grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
