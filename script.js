@@ -12,7 +12,7 @@ $(document).ready(function() {
         success : function(json) {
           console.log(json);
           var results = "";
-          results += 'Yummy results for ' + value;
+          results += '<h2>Yummy results for "' + value + '"</h2><br>';
           for (var i=0; i<json.matches.length; i++) {
             results += '<b>'+json.matches[i].recipeName + "</p></b>";
             results += "Ingredients: </p>";
